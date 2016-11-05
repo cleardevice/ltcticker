@@ -1,0 +1,20 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "ltc_icon_48.png"
+   },
+   "description": "This extension displays the current LTC/USD price on the badge icon.",
+   "icons": {
+      "128": "ltc_icon_128.png",
+      "16": "ltc_icon_16.png",
+      "48": "ltc_icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5c5OLkW67kGFJgJiUHax+1MPgOPsSHcNdW5WQ6AtG5EFQf6d+MLqGPnAb52RCa7DypP5VvRdUtPRAl3B5RTT46bY4TDwb/M/sfGRh4Qv+ytu0bAqDN4TEgHAE8Z9SdQnX2Z1ul1sTa/dYUm/Hcax72f/x42WkdNdLzS23mIGEewIDAQAB",
+   "manifest_version": 2,
+   "name": "LTC Ticker",
+   "permissions": [ "storage", "https://btc-e.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1"
+}
